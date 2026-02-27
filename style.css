@@ -3,20 +3,17 @@
       text-align: center;
       padding: 20px;
       color:white;
-      background-color: rgb(162, 144, 122);
+      background-color: gray;
 
  }
 
- header h1 {
-    color: rgba(185, 32, 32, 0.249);
- }
+h1 {
+   color: black;
+   font-style: oblique;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: bolder;
 
- img{
-    width: 550px;
-    border-radius: 10px;
-    margin: 100px 0;
-
- }
+}
 
  a {
     color: rgb(102, 0, 255);
@@ -27,22 +24,33 @@
 
  footer {
 
-    margin-top: 30px;
-    color: rgba(21, 144, 111, 0.571);
+    margin-top: 300px;
+    color: rgba(10, 11, 10, 0.571);
     font-weight: bold;
 
  }
 
- Container  {
-   position: bottom left;
-   gap: 20px; /*between "jade.jpg" and footer*/
-
+  h2 {
+   color: rgb(166, 179, 186);
+   font-style: inherit;
+   font-weight: bolder;
  }
 
- #flowers.jpg {
+h3 {
+   color: blanchedalmond;
+   font-weight: bolder;
+   font-style: italic;
+}
 
-   width: 400;
-   border-radius: 30px;
-    margin: 100px 0;
+#container{
+   position: absolute;
+   margin-right: 0cm; /* aligns to the right */
+   background-color: blanchedalmond;
+}
 
- }
+.rosaries {
+   border-radius: 500px;
+   border-color: aqua;
+   size: 200px;
+   
+}
