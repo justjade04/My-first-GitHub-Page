@@ -48,9 +48,10 @@ h3 {
    background-color: blanchedalmond;
 }
 
-.rosaries {
-   border-radius: 500px;
+img {
+   border-radius: 450px;
+   flex-wrap: wrap;
    border-color: aqua;
    size: 200px;
-   
+
 }
