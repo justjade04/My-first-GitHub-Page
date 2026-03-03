@@ -42,23 +42,24 @@
 <h2>THE HOLY ROSARY SHOP⛪</h2>
 <header>
 <h3>SIGN IN</h3>
-<form id="form">
+<p>LOGIN to view the employee details table:</p>
     <div>
-    <input type="Username" name="Username" id="USERNAME" placeholder="🧒🏾USERNAME">
-<label for="USERNAME"></label>
+    <input type="Username" name="Username" id="USERNAME" placeholder="🧒🏾USERNAME" name="Username"
+    value="justjade" required>
+    <label for="USERNAME"></label>
+    <br><br>
      <div>
-    <input type="Password" name="Password" id="PASSWORD" placeholder="🔒PASSWORD">
-    <label for="PASSWORD"></label>
-    <p>forgot Password? <a href="Mary.png">Tap Here</a></p>
-
-    <button onclick="SubmitEvent()">Login</button>
-    <script>
-    function SubmitEvent() {
-    
-    document.getElementById("index");
-
-}
-</script>
+    <input type="Password" name="Password" id="PASSWORD" placeholder="🔒PASSWORD" name="Password" 
+    value="J@de04" required>
+    <label for="PASSWORD"></label><br>
+    <p>forgot Password? <a href="Employee.html">Tap Here</a></p>
+ <button><a href="Employee.html">Login</a></button>
+     <script>
+        window.onload=function() {
+            document.getElementById("username").value="justjade";
+            document.getElementById("password").value="Jade@04";
+        }
+        </script>
     </div>
     </div>
 </form>
